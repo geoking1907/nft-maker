@@ -3,35 +3,35 @@ import random
 from images import *
 
 backgrounds = [
-    'b/b1.png',
-    'b/b2.png',
-    'b/b3.png'
+    'images/b/b1.png',
+    'images/b/b2.png',
+    'images/b/b3.png'
 ]
 faces = [
-    'f/f1.png',
-    'f/f2.png',
-    'f/f3.png',
-    'f/f4.png',
-    'f/f5.png',
-    'f/f6.png'
+    'images/f/f1.png',
+    'images/f/f2.png',
+    'images/f/f3.png',
+    'images/f/f4.png',
+    'images/f/f5.png',
+    'images/f/f6.png'
 ]
 head_accessoires = [
-    'h/h1.png',
-    'h/h2.png',
-    'h/h3.png'
+    'images/h/h1.png',
+    'images/h/h2.png',
+    'images/h/h3.png'
 ]
 glasses = [
-    'g/g1.png',
-    'g/g2.png',
-    'g/g3.png',
-    'g/g4.png'
+    'images/g/g1.png',
+    'images/g/g2.png',
+    'images/g/g3.png',
+    'images/g/g4.png'
 ]
 t_shirts = [
-    't/t1.png',
-    't/t2.png',
-    't/t3.png',
-    't/t4.png',
-    't/t5.png'
+    'images/t/t1.png',
+    'images/t/t2.png',
+    'images/t/t3.png',
+    'images/t/t4.png',
+    'images/t/t5.png'
 ]
 
 
