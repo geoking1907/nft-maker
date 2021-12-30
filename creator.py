@@ -24,7 +24,7 @@ def create():
     b.paste(t, (0, 0), t)
     # save with random name
     rname = "".join([random.choice(string.hexdigits[:16]) for x in range(32)])
-    b.save(f"{rname}.png")
+    b.save(f"output/{rname}.png")
     b.show()
 
 
