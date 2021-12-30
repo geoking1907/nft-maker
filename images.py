@@ -33,5 +33,5 @@ t_shirts = [
     r'images/t/t2.png',
     r'images/t/t3.png',
     r'images/t/t4.png',
-    r'images/t/t5.png'
+    r'images/t/t5.png',
 ]
