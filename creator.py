@@ -7,10 +7,10 @@ import string
 def create():
     # choice random images
     background = random.choices(backgrounds, weights=(50, 13, 37))[0]
-    face = random.choices(faces, weights=(25, 17, 8, 17, 25, 8))[0]
-    hat = random.choices(head_accessoires, weights=(37, 50, 13))[0]
-    glass = random.choices(glasses, weights=(30, 15, 40, 15))[0]
-    t_shirt = random.choices(t_shirts, weights=(35, 35, 8, 14, 8))[0]
+    face = random.choices(faces)[0]
+    hat = random.choices(head_accessoires)[0]
+    glass = random.choices(glasses)[0]
+    t_shirt = random.choices(t_shirts)[0]
     # open all images
     b = Image.open(background)
     f = Image.open(face)

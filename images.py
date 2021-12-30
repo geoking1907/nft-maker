@@ -9,18 +9,24 @@ faces = [
     r'images/f/f3.png',
     r'images/f/f4.png',
     r'images/f/f5.png',
-    r'images/f/f6.png'
+    r'images/f/f6.png',
+    r'images/f/f7.png',
 ]
 head_accessoires = [
     r'images/h/h1.png',
     r'images/h/h2.png',
-    r'images/h/h3.png'
+    r'images/h/h3.png',
+    r'images/h/h4.png',
+    r'images/h/h5.png',
+    r'images/none.png',
 ]
 glasses = [
     r'images/g/g1.png',
     r'images/g/g2.png',
     r'images/g/g3.png',
-    r'images/g/g4.png'
+    r'images/g/g4.png',
+    r'images/g/g5.png',
+    r'images/none.png',
 ]
 t_shirts = [
     r'images/t/t1.png',
