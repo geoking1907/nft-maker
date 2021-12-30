@@ -1,7 +1,5 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
 
-# nft-maker
-
 ## How to
 If you're going to use this program, change the pictures in the "images" folder. All images must be of the same resolution and size.
 Add backgrounds to folder "b", faces to folder "f", glasses to folder "g", accessories to folder "h", and clothes to folder "t".
