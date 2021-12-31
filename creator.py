@@ -22,7 +22,8 @@ def create():
     b.paste(g, (0, 0), g)
     b.paste(h, (0, 0), h)
     b.paste(t, (0, 0), t)
-    # ASP
+    # ASP - anti-same pictures. ASP is the name generator.
+    # All pictures have unique name - 5 numbers.
     rname = f"{background}{face}{hat}{glass}{t_shirt}"
     rname = rname.replace("/", "")
     rname = rname.replace("images", "")
