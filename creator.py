@@ -22,13 +22,19 @@ def create():
     b.paste(g, (0, 0), g)
     b.paste(h, (0, 0), h)
     b.paste(t, (0, 0), t)
-    # save with random name
-    rname = "".join([random.choice(string.hexdigits[:16]) for x in range(32)])
+    # ASP
+    rname = f"{background}{face}{hat}{glass}{t_shirt}"
+    rname = rname.replace("/", "")
+    rname = rname.replace("images", "")
+    rname = rname.replace(".png", "")
+    rname = rname.replace("b", "")
+    rname = rname.replace("f", "")
+    rname = rname.replace("h", "")
+    rname = rname.replace("g", "")
+    rname = rname.replace("t", "")
+    rname = rname.replace("none", "0")
     b.save(f"output/{rname}.png")
-    b.show()
 
 
-create()
-create()
-create()
-create()
+for _ in range(101):
+    create()
